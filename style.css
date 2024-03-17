@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9dc08b;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+}
+
+.container header{
+    color: #edf1d6;
+}
+
+.container-input{
+    width: 300px;
+    
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.container label {
+    color: #edf1d6;
+}
+
+.container-input input {
+   padding: 3px 10px;
+   outline: none;
+   margin-bottom: 5px;
+   border-radius: 20px;
+   border: none;
+   background-color: #edf1d6;
+}
+
+.button{
+    margin-top: 5px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #edf1d6;
+    color: #9dc08b;
+}
+
+#campo-cep::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+
+#campo-telefone::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+#campo-cpf::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
